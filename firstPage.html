@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo</title>
+</head>
+
+<body>
+
+    <p>My Information (Unordered List)</p>
+
+    <ul>
+        <li>Name: Chris</li>
+        <li>DOB: 04/18/1986</li>
+        <li>Location: Plymouth, MN</li>
+        <li>Born is St. Louis Park, MN</li>
+    </ul>
+
+    <p>Favorite Electronic Music Composers (Ordered List)</p>
+    <ol>
+        <li>Boards of Canada</li>
+        <li>Lusine</li>
+        <li>Biosphere</li>
+        <li>Loscil</li>
+        <li>Com Truise</li>
+        <li>Lone</li>
+        <li>Keaver & Brause</li>
+        <li>The Black Dog</li>
+        <li>Bola</li>
+        <li>Odd Nosdam</li>
+    </ol>
+
+    <p>This is my eating schedule for the week.</p>
+
+    <table border="1">
+        <tr>
+            <th>FOOD</td>
+            <th>Sunday</th>
+            <th>Monday</td>
+            <th>Tuesday</td>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+        <tr>
+            <td>Breakfast</td>
+            <td>Oatmeal</td>
+            <td>Oatmeal</td>
+            <td>Oatmeal</td>
+            <td>Oatmeal</td>
+            <td>Oatmeal</td>
+            <td>Oatmeal</td>
+            <td>Oatmeal</td>
+        </tr>
+        <tr>
+            <td>Lunch</td>
+            <td>Fish</td>
+            <td>Chicken</td>
+            <td>Chicken</td>
+            <td>Chicken</td>
+            <td>Good to Go</td>
+            <td>Chicken</td>
+            <td>Chicken</td>
+        </tr>
+        <tr>
+            <td>Dinner</td>
+            <td>Pizza</td>
+            <td>Eggs</td>
+            <td>Eggs</td>
+            <td>Eggs</td>
+            <td>Eggs</td>
+            <td>Eggs</td>
+            <td>Eggs</td>
+        </tr>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Location</th>
+                <th>Eyes</th>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+        <tbody>
+            <td>Chris</td>
+            <td>33</td>
+            <td>Minnesota</td>
+            <td>Brown</td>
+            <td>5'9"</td>
+            <td>155</td>
+        </tbody>
+    </table>
+
+    <p>Do you prefer Coffee or Tea? (Radio Input)</p>
+    <form>
+        <label for="coffee">Coffee: </label>
+        <input name="bevChoice" id="coffee" type="radio" value="COFFEE">
+
+        <label for="tea">Tea: </label>
+        <input name="bevChoice" id="tea" type="radio" value="TEA">
+
+        <p>What is your favorite color?</p>
+
+        <select name="favColor">
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Orange</option>
+            <option>Green</option>
+            <option>Yellow</option>
+            <option>Purple</option>
+        </select>
+
+        <p>What is your current mood?</p>
+        <select name="mood">
+            <option value="happy">:)</option>
+            <option value="neutral">:|</option>
+            <option value="sad">:(</option>
+        </select>
+
+        <p>Leave a comment!</p>
+        <textarea name="Comments" rows="5" cols="20"></textarea>
+
+
+
+        <p>Input form practice with placeholder text</p>
+
+        <div>
+            <label for="first">First Name:</label>
+            <input name="first" id="first" type="text" placeholder="John" required>
+            <label for="last">Last Name:</label>
+            <input name="last" id="last" type="text" placeholder="Smith" required>
+        </div>
+        <div>
+            <label for="chicken">Chicken</label>
+            <input id="chicken" name="meat" type="radio" value="chicken">
+            <label for="steak">Steak</label>
+            <input id="steak" name="meat" type="radio" value="steak">
+            <label for="fish">Fish</label>
+            <input id="fish" name="meat" type="radio" value="fish">
+        </div>
+
+        <div>
+            <label>
+            Email:
+            <input name="email" type="email" placeholder="your email" required>
+            </label>
+
+            <label>
+            Password:
+            <input name="password" type="password" pattern=".{5,10}" required title="5 to 10 characters"> 
+            </label>
+        </div>
+
+        <button>Pick!</button>
+
+    </form>
+
+
+</body>
+
+</html>
